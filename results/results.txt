@@ -1,0 +1,48 @@
+Detailed Analysis of M.S. Thesis Results:
+Author: Leo Martinez III - Spring 2025
+
+Max Accuracy: 87.00%
+
+Class 0 Sample Size: 30500:
+Class 1 Sample Size: 29500:
+Class 4 Sample Size: 19000:
+
+First layer filters: 64
+First dropout rate: 0.25
+First layer activation function: relu
+
+Second layer filters: 64
+Second layer activation function: leaky_relu
+Third dense layer units: 256
+
+First Fully-Connected Layer 1: Dense - 256 - relu
+Second Fully-Connected Layer 1: Dense - 5 - softmax
+
+Epochs: 25
+Validation split: 0.2
+Batch size: 256
+
+ Total params: 55,495 (216.78 KB)
+ Trainable params: 55,493 (216.77 KB)
+ Non-trainable params: 0 (0.00 B)
+ Optimizer params: 2 (12.00 B)
+
+
+Test Loss: 0.7524672150611877
+Test Accuracy: 0.8699876070022583
+
+              precision    recall  f1-score   support
+
+           0     0.9326    0.8648    0.8975      7458
+           1     0.7700    0.8658    0.8151      2421
+           2     0.7893    0.7021    0.7432      2887
+           3     0.7500    0.0896    0.1600        67
+           4     0.8745    0.9303    0.9016      9711
+
+    accuracy                         0.8700     22544
+   macro avg     0.8233    0.6905    0.7035     22544
+weighted avg     0.8712    0.8700    0.8684     22544
+
+Matthew's Correlation Coefficient (MCC) Score:  0.808029032245609
+
+10-Fold Cross Validation Score = 0.9656
