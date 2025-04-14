@@ -52,6 +52,6 @@ Here is a brief explanation of the items:
 - **images:** Contains the tabular data that was transformed into image data for the CNN
 - **model:** Contains the pretrained saved model (.h5) that can be reused at anytime for testing purposes
 - **results:** Contains accuracy plots, confusion matrices, AUC visualizations, and model performance information
-- **dependencies_utilized.txt:** Describes the specific libraries with versions used in both virtual environments for the .py script
+- **dependencies_utilized.txt:** Describes the specific libraries along with versions utilized in both virtual environments for the python script
 - **README.md:** Describes the purpose, structure, and requirements of the project
 - **LICENSE:** Includes license details for the repository
