@@ -43,7 +43,7 @@ This project is licensed under the [MIT License](LICENSE).
 - A separate virtual environment was used for the CTGAN section due to conflicting dependencies.
 - Training was conducted on a high end local machine using a 16 core (32 thread) processor.
 - Due to the large size, the synthetic data was not included in the data folder and is available upon request.
-- Simarily, not all images used for training and testing were included in the images folder due to the large amount is available upon request.
+- Simarily, not all images used for training and testing were included in the images folder due to the large amount (only images 0-20 for each folder) and is available upon request.
 
 Here is a brief explanation of the items:
 - **src:** Contains the main Python (.py) script for model training and evaluation (separated by sections)
